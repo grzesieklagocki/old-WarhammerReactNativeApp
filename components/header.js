@@ -8,7 +8,15 @@ export default class Header extends Component {
 
   render() {
     return (
-      <View style={{ width: "100%" }}>
+      <View
+        style={{
+          margin: 5,
+          borderRadius: 20,
+          borderWidth: 1,
+          borderColor: "#90caf9",
+          backgroundColor: "white"
+        }}
+      >
         <Text style={styles.header}>{this.props.title}</Text>
         <View style={styles.content}>{this.props.children}</View>
       </View>
@@ -18,15 +26,21 @@ export default class Header extends Component {
 
 const styles = StyleSheet.create({
   header: {
-    backgroundColor: "black",
-    color: "white",
+    // backgroundColor: "white",
+    // color: "white",
     textAlign: "center",
-    borderColor: "black",
-    borderWidth: 1
+    padding: 10,
+    fontWeight: "bold",
+    fontSize: 20,
+    borderBottomWidth: 1,
+    borderColor: "#90caf9"
+    // borderColor: "black",
+    // borderWidth: 1
   },
   content: {
-    padding: 5,
-    borderColor: "black",
-    borderWidth: 1
+    padding: 5
+    // backgroundColor: "white"
+    // borderColor: "black",
+    // borderWidth: 1
   }
 });

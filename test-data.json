@@ -17,12 +17,12 @@
     "Mag": "-",
     "PO": "-",
     "PP": "-",
-    "Umiejetnosci": "czytanie i pisanie, leczenie, nauka (astronomia albo historia), nauka (teologia), przekonywanie, spostrzegawczość, znajomość języka (klasyczny)",
-    "Zdolnosci": "bardzo silny albo szybki refleks, charyzmatyczny albo urodzony wojownik, przemawianie",
-    "Wyposazenie": "szaty kapłańskie, symbol boga",
-    "ProfWe": "fanatyk, guślarz, łowca czarownic, łowca wampirów, rycerz, skryba, żak",
-    "ProfWy": "cyrulik, demagog, fanatyk, kapłan, skryba, zakonnik",
-    "Opis": "W hierarchii wartości mieszkańców Starego Świata religia spadła na drugie miejsce, ustępując bogactwu, ale wciąż jeszcze wielu młodych ludzi obojga płci znajduje w sobie powołanie do služby bożej. Praca kapłana wymaga poświęcenia i determinacji duchowej. Bycie akolitą to pierwszy krok na drodze ku kapłaństwu. Młodzi duchowni przechodzą surowe ćwiczenia pod opieką starszych kapłanów. Do końca nowicjatu nie mogą nauczać ani wygłaszać kazań. Czas spędzają na studiowaniu świętych ksiąg, czytaniu i przepisywaniu manuskryptów oraz na poznawaniu sztuki wzniosłego przemawiania. Akolici uczą się również walki na wypadek, gdyby trzeba było bronić świątyni.",
-    "Uwagi": "Musisz wybrać boga i Świątynię, którym służy Twój Bohater. Szczegółowy opis rozmaitych religii wyznawanych w Starym Świecie znajdziesz w Rozdziale VIII: Religie i wierzenia. Wybór bóstwa zapewnia dodatkową umiejętność lub zdolność, wymienioną w opisie kultu."
+    "skills": "czytanie i pisanie, leczenie, nauka (astronomia albo historia), nauka (teologia), przekonywanie, spostrzegawczość, znajomość języka (klasyczny)",
+    "talents": "bardzo silny albo szybki refleks, charyzmatyczny albo urodzony wojownik, przemawianie",
+    "trippings": "szaty kapłańskie, symbol boga",
+    "careerEntries": "fanatyk, guślarz, łowca czarownic, łowca wampirów, rycerz, skryba, żak",
+    "careerExits": "cyrulik, demagog, fanatyk, kapłan, skryba, zakonnik",
+    "description": "W hierarchii wartości mieszkańców Starego Świata religia spadła na drugie miejsce, ustępując bogactwu, ale wciąż jeszcze wielu młodych ludzi obojga płci znajduje w sobie powołanie do služby bożej. Praca kapłana wymaga poświęcenia i determinacji duchowej. Bycie akolitą to pierwszy krok na drodze ku kapłaństwu. Młodzi duchowni przechodzą surowe ćwiczenia pod opieką starszych kapłanów. Do końca nowicjatu nie mogą nauczać ani wygłaszać kazań. Czas spędzają na studiowaniu świętych ksiąg, czytaniu i przepisywaniu manuskryptów oraz na poznawaniu sztuki wzniosłego przemawiania. Akolici uczą się również walki na wypadek, gdyby trzeba było bronić świątyni.",
+    "note": "Musisz wybrać boga i Świątynię, którym służy Twój Bohater. Szczegółowy opis rozmaitych religii wyznawanych w Starym Świecie znajdziesz w Rozdziale VIII: Religie i wierzenia. Wybór bóstwa zapewnia dodatkową umiejętność lub zdolność, wymienioną w opisie kultu."
   }
 }

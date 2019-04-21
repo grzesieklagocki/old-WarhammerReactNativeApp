@@ -9,38 +9,36 @@ export default class StatsHolder extends Component {
 
   render() {
     return (
-      <View>
-        <Header title="Statystyki">
-          <View style={styles.row}>
-            {statNames[0].map(stat => (
-              <Text selectable={true} style={styles.headerField}>
-                {stat}
-              </Text>
-            ))}
-          </View>
-          <View style={styles.row}>
-            {statNames[0].map(stat => (
-              <Text selectable={true} style={styles.field}>
-                {this.props.stats[stat]}
-              </Text>
-            ))}
-          </View>
-          <View style={styles.row}>
-            {statNames[1].map(stat => (
-              <Text selectable={true} style={styles.headerField}>
-                {stat}
-              </Text>
-            ))}
-          </View>
-          <View style={styles.row}>
-            {statNames[1].map(stat => (
-              <Text selectable={true} style={styles.field}>
-                {this.props.stats[stat]}
-              </Text>
-            ))}
-          </View>
-        </Header>
-      </View>
+      <Header title="Statystyki" style={{ padding: 5 }}>
+        <View style={styles.row}>
+          {statNames[0].map((stat, i) => (
+            <Text key={i} style={styles.headerField}>
+              {stat}
+            </Text>
+          ))}
+        </View>
+        <View style={styles.row}>
+          {statNames[0].map((stat, i) => (
+            <Text key={i} style={styles.field}>
+              {this.props.stats[stat]}
+            </Text>
+          ))}
+        </View>
+        <View style={styles.row}>
+          {statNames[1].map((stat, i) => (
+            <Text key={i} style={styles.headerField}>
+              {stat}
+            </Text>
+          ))}
+        </View>
+        <View style={styles.row}>
+          {statNames[1].map((stat, i) => (
+            <Text key={i} style={styles.field}>
+              {this.props.stats[stat]}
+            </Text>
+          ))}
+        </View>
+      </Header>
     );
   }
 }

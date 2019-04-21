@@ -9,8 +9,9 @@ export default class ListHolder extends Component {
   render() {
     return (
       <View style={styles.view}>
-        {this.props.items.map(val => (
+        {this.props.items.map((val, key) => (
           <TouchableOpacity
+            key={key}
             style={styles.touchableOpacity}
             onPress={() => this.props.onItemSelected(val)}
           >
@@ -25,14 +26,14 @@ export default class ListHolder extends Component {
 const styles = StyleSheet.create({
   view: {
     flexDirection: "row",
-    justifyContent: "center",
-    flexWrap: "wrap"
+    flexWrap: "wrap",
+    justifyContent: "center"
   },
   touchableOpacity: {
-    padding: 5,
-    margin: 2,
     backgroundColor: "#0277bd",
-    borderRadius: 10
+    borderRadius: 10,
+    margin: 2,
+    padding: 5
   },
   text: {
     color: "white"
